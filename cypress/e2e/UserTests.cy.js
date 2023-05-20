@@ -80,7 +80,7 @@ describe("Petstore API TESTING", function() {
                 expect(response.body).to.have.property('firstName', firstName);
                 expect(response.body).to.have.property('lastName', lastName);
                 expect(response.body).to.have.property('email', email);
-                expect(response.body).to.have.property('password', 'test123');
+                expect(response.body).to.have.property('password', 'test1234');
                 expect(response.body).to.have.property('phone', '5456455658');
                 expect(response.body).to.have.property('userStatus', 1);
               })
