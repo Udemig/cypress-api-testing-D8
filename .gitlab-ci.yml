@@ -6,4 +6,4 @@ cypress-test-api-prod:
   stage: cypress-api-test-run
   script: 
     - npm install cypress
-    - npx cypress run --record --key 777169a4-c8fd-4255-9f96-032e6e4749d2
+    - npx cypress run --record --key e33e176a-84f8-4997-a7de-54e441ac751c
